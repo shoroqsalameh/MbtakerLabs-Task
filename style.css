@@ -1,0 +1,76 @@
+#feedbackBoxContent {
+    display: none;
+    width: 50%;
+    margin: 10% auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+#feedback {
+    width: 100%;
+    border: none;
+    padding: 5px;
+}
+
+#feedback label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#feedback label h2,
+#feedback label h3 {
+    margin: 5px 0;
+}
+
+#feedback input[type="range"],
+#feedback textarea {
+    width: 80%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#feedback button {
+    width: 100%;
+    padding: 5px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#feedback button:hover {
+    background-color: #0056b3;
+}
+
+.rightSide {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 10px;
+}
+
+.name {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.clickbutton {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    padding: 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.clickbutton:hover {
+    background-color: #0056b3;
+}
